@@ -180,5 +180,6 @@ document.addEventListener('DOMContentLoaded', function() {
         gameActive = true;
         gameInterval = setInterval(updateGame, 10); // Ažuriraj igru svakih 10 ms
         asteroidInterval = setInterval(createAsteroid, 100);  // Dodaj nove asteroide svakih 100 ms
+    });
 });
 
